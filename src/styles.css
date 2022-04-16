@@ -1,0 +1,116 @@
+/* You can add global styles to this file, and also import other style files */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald, sans-serif;
+}
+
+/* Header Section */
+
+.navbar-brand
+{
+    width: 7% !important;
+    padding: 0px 0px !important;
+    margin-right: 71px !important;
+}
+
+img
+{
+    width: 100%;
+}
+
+.navbar
+{
+    padding: 0 !important;
+    text-transform: uppercase;
+}
+
+.navbar-nav.m-auto .nav-link {
+     padding-right: 35px !important; 
+     margin-top: 19px !important; 
+     padding-top: 0 !important; 
+}
+
+/* .navbar-expand-md .navbar-nav .nav-link {
+    padding: 0 !important;
+    font-size: 11px !important;
+    padding: 0px 10px;
+    padding-right: 22px;
+    margin-top: 8px;
+    font-size: 10px;
+    color: #484F57;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 8px;
+    font-weight: 600;
+} */
+
+.service_header {
+    display: inline-grid;
+    border-left: 1px solid #A5A5A5;
+    padding-left: 8px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.nav-item.dropdown:hover{
+    background-color: #000;
+    color: white;
+}
+
+.nav-item.dropdown:hover .eccommerce {
+    color: white;
+}
+
+.nav-item.dropdown:hover .service {
+    color: white;
+}
+
+.nav-item.dropdown:hover .border_left .service {
+    color: white;
+}
+
+.nav-item.dropdown:hover .dropdown-toggle::after {
+    border-top: 0.5em solid white !important;
+}
+
+.border_left .service {
+    font-size: 16px;
+    color: #000;
+    font-weight: 800;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.eccommerce {
+    font-size: 12px;
+    line-height: 13px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    display: block;
+}
+
+.nav-item.dropdown:hover .dev-bot {
+    background-color: white;
+}
+.dev-bot {
+    display: block;
+    background: black;
+    height: 3px;
+    width: 30px;
+    margin-top: 3px;
+}
+
+.dropdown-toggle::after {
+    display: inline-block !important;
+    margin-left: 9px !important;
+    vertical-align: -12px !important;
+    content: "" !important;
+    border-top: .5em solid #fe0000 !important;
+    border-right: .5em solid transparent !important;
+    border-bottom: 0 !important;
+    border-left: .5em solid #cb000000 !important;
+}
