@@ -47,14 +47,14 @@ img
     font-weight: 600;
 } */
 
-.service
-{
-    font-size: 17px;
+ .service {
+    font-size: 18px;
     color: #000;
     font-weight: 800;
     line-height: 22px;
-    
+    font-family: 'Open Sans', sans-serif !important;
 }
+
 
 .service_header {
     display: inline-grid;
@@ -117,9 +117,15 @@ img
     border-left: .5em solid #cb000000 !important;
 }
 
-.navbar-nav.ml-auto .nav-link{
-    padding-right: 19px;
-    font-size: 12px;
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    padding: 0px 10px;
+    margin-top: 8px;
+    font-size: 10px;
+    color: #484F57;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .btn_enquiry {
@@ -133,3 +139,105 @@ img
     font-family: 'Oswald', sans-serif !important;
 }
 
+/*  Dropdown Menu */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    left: -17px;
+}
+
+.mg-3
+{
+    width: 750px;
+    display: flex;
+    padding: 15px 10px 5px 10px;
+}
+
+.service_content {
+    display: flex;
+    width: 50%;
+}
+
+.serive_img {
+    width: 15%;
+    height: 49px;
+}
+
+.serive_img img {
+    width: 100%;
+}
+
+.serive_heading {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.serive_heading h3 {
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.service_content a {
+    display: flex;
+    text-decoration: none;
+}
+
+.megamenu
+{
+    margin-left: -100px !important;
+}
+
+
+/* Slider */
+
+.carousel-caption
+{
+    padding-bottom: 13.25rem !important;
+}
+
+.carousel-inner
+{
+    border-bottom: 5px solid #fe0000 !important;
+}
+
+.carousel-caption h1 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Oswald, sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon
+{
+    background-color: #fe0000 !important;
+    border-radius: 20px !important;
+}
+
+.carousel-indicators [data-bs-target] 
+{
+    background-color: #fe0000 !important;
+}
+
+/* Section Our Project */
+
+.heading p {
+    width: 73%;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.mt_20
+{
+    margin-top: 20px;
+}
+
+.hb_process
+{
+    display: flex;
+    justify-content: center;
+}
