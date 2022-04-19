@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>DigitalAgency</title>
+  <title>Digital Agency</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../node_modules/intl-tel-input/build/css/intlTelInput.css">
@@ -13,10 +13,21 @@
 
   <script src="../node_modules/intl-tel-input/build/js/intlTelInput.js"></script>
   <script>
-    var input = document.querySelector("#phone");
-    window.intlTelInput(input, {
-      // any initialisation options go here
-    });
-  </script>
+  // Vanilla Javascript
+  var input = document.querySelector("#phone");
+  window.intlTelInput(input,({
+    // options here
+  }));
+
+  $(document).ready(function() {
+      $('.iti__flag-container').click(function() { 
+        var countryCode = $('.iti__selected-flag').attr('title');
+        var countryCode = countryCode.replace(/[^0-9]/g,'')
+        $('#phone').val("");
+        $('#phone').val("+"+countryCode+" "+ $('#phone').val());
+     });
+  });
+</script>
+  
 </body>
 </html>
