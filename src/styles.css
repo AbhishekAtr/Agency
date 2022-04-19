@@ -2,6 +2,12 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
+.iti__flag {background-image: url("../node_modules/intl-tel-input/build/img/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("../node_modules/intl-tel-input/build/img/flags@2x.png");}
+}
+
 /* You can add global styles to this file, and also import other style files */
 *
 {
@@ -583,4 +589,170 @@ img
 {
     font-size: 25px;
 }
+}
+
+/* Testimonial Section */
+
+.testiomonial {
+    background-image: url("assets/img/Banner/a.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 40px 0px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* .testiomonial .slick-list {
+    padding: 49px 0px 20px;
+}
+
+.testiomonial .slick-dots {
+    bottom: -40px;
+}
+
+.testiomonial .testionmial_images {
+    width: 20%;
+    margin: 0 0 0 auto;
+    height: 42px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.testiomonial .slick-slide img {
+    display: block;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -37px;
+    height: 70px;
+}
+
+.testiomonial .card-body {
+    padding-top: 0;
+}
+
+.testiomonial .heading h1 {
+    color: white;
+}
+
+.testiomonial .heading p {
+    color: white;
+}
+
+.testiomonial .card-title {
+
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.testiomonial .card-body p {
+
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.testiomonial .card {
+    background-color: red !important;
+    color: white !important;
+    border-radius: 15px !important;
+}
+ */
+
+ .wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+  }
+  .wrapper h2{
+    font-family:sans-serif;
+    color:#fff;
+  }
+  .carousel1{
+    width:90%;
+    margin:0px auto;
+    display: flex;
+  }
+  .slick-slide{
+    margin:10px;
+  }
+  .slick-slide img{
+    width:20%;
+    border: 2px solid #fff;
+    border-radius: 50px;
+  }
+  .slick-prev, .slick-next{
+    background: #000;
+    border-radius: 15px;
+    border-color: transparent;
+  }
+  .card{
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 15px #ccc;
+    background-color: #fe0000 !important;
+    border-top-left-radius: 50px !important;
+  }
+  .card-body{
+    background: #fff;
+    width: 100%;
+    vertical-align: top;
+  }
+  .card-content{
+    text-align: left;
+    color: #333;
+    padding: 15px;
+  }
+  .card-text{
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+
+  /* Client Logos Slider */
+
+  .clients_logos .slide {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid #FE0000;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+.clients_logos .slide img {
+    width: 41%;
+    margin: auto;
+}
+
+.clients_logos .slick-track {
+    padding: 45px 0px 50px;
+}
+
+
+/* Get a request section */
+
+.modal-dialog {
+    border: 2px solid #fe0000;
+}
+
+label {
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.modal-body p
+{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form-group span
+{
+    color: #fe0000;
 }

@@ -5,9 +5,18 @@
   <title>DigitalAgency</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../node_modules/intl-tel-input/build/css/intlTelInput.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <app-root></app-root>
+
+  <script src="../node_modules/intl-tel-input/build/js/intlTelInput.js"></script>
+  <script>
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      // any initialisation options go here
+    });
+  </script>
 </body>
 </html>
