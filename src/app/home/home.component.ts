@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 declare var $: any
 @Component({
   selector: 'app-home',
@@ -64,7 +65,7 @@ export class HomeComponent implements OnInit {
 
 setSecondSlider() {
   $(".clients_logos").slick({
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 300,
     autoplay: true,
