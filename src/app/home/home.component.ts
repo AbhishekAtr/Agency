@@ -23,13 +23,14 @@ export class HomeComponent implements OnInit {
   setSlickSLider() {
     $(document).ready(function(){
       $('.carousel1').slick({
-        speed: 800,
+        dots: true,
+        infinite: true,
+        speed: 300,
+        autoplay: true,
+        autoplaySpeed: 1800,
+        arrows: false,
         slidesToShow: 2,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        dots:true,
-        centerMode: true,
         responsive: [{
           breakpoint: 1024,
           settings: {
@@ -65,7 +66,7 @@ export class HomeComponent implements OnInit {
 
 setSecondSlider() {
   $(".clients_logos").slick({
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 300,
     autoplay: true,
