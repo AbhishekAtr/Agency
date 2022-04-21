@@ -17,13 +17,13 @@ import { IosAppComponent } from './ios-app/ios-app.component';
 
 const appRoutes: Routes=[
   {path:'', component: HomeComponent},
-  {path:'automation', component: AutomationComponent},
-  {path:'marketing', component: MarketingComponent},
-  {path:'website-development', component: WebsiteDevelopmentComponent},
-  {path:'about-us', component: AboutUsComponent},
-  {path:'our-portfolio', component: OurPortfolioComponent},
-  {path:'billing-software', component: BillingSoftwareComponent},
-  {path:'ios-apps', component: IosAppComponent},
+  {path:'Automation', component: AutomationComponent},
+  {path:'Marketing-maintenance', component: MarketingComponent},
+  {path:'Website-Development', component: WebsiteDevelopmentComponent},
+  {path:'About-us', component: AboutUsComponent},
+  {path:'Our-Portfolio', component: OurPortfolioComponent},
+  {path:'Billing-Software', component: BillingSoftwareComponent},
+  {path:'Ios-Apps', component: IosAppComponent},
 ]
 
 @NgModule({
