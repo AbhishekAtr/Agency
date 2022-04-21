@@ -1,6 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@700;800;900&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 .iti__flag {background-image: url("../node_modules/intl-tel-input/build/img/flags.png");}
 
@@ -1714,6 +1715,7 @@ p {
     width: 83%;
     margin: auto;
     color: gray;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .marketing_content h1 {
@@ -1796,4 +1798,61 @@ p {
 }
 
 
+/* Billing software page CSS start */
 
+.software_banner {
+    background-image: linear-gradient(rgb(14 13 13 / 26%), rgb(14 13 13 / 30%)), url(../src/assets/img/Banner/client.jpg);
+
+}
+
+
+.feature_box img {
+    width: 20%;
+    margin-left: -13px;
+    margin-bottom: 10px;
+}
+
+.feature_box h5 {
+
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.feature_box {
+    margin-bottom: 20px;
+}
+
+.pb_35 {
+    padding-bottom: 35px;
+}
+
+.pb_35 h1 {
+
+    font-size: 30px;
+}
+
+.pb_35 img {
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+
+/* IOS APPS page CSS Start */
+
+.android_app {
+    background: linear-gradient(175deg, #7cb2c0 0%, #7cb2c0 78.95%, #ffffff 79%) !important;
+    color: white;
+}
+
+.required h1 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.required ul {
+    list-style: disc;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    padding-left: 16px;
+    font-weight: 100;
+}
