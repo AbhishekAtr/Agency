@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="../../assets/img/logo.png" alt=""></a>
+    <a class="navbar-brand" routerLink="/"><img src="../../assets/img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav m-auto">
         <li class="nav-item dropdown hover">
-          <a class="nav-link border-left" aria-current="page" href="#">
+          <a class="nav-link border-left" aria-current="page" routerLink="/automation">
             <div class="service_header">
               <span class="service" title="AUTOMATION SOLUTIONS"><b>AUTOMATION </b></span>
               <span class="eccommerce" title="AUTOMATION SOLUTIONS"><b> SOLUTIONS</b></span>
@@ -17,7 +17,7 @@
           </a>
         </li>
         <li class="nav-item dropdown hover">
-          <a class="nav-link " aria-current="page" href="#">
+          <a class="nav-link " aria-current="page" routerLink="/website-development">
             <div class="service_header">
               <span class="service" title="AUTOMATION SOLUTIONS"><b>Website </b></span>
               <span class="eccommerce" title="AUTOMATION SOLUTIONS"><b> Development</b></span>
@@ -28,7 +28,7 @@
         </li>
 
         <li class="nav-item dropdown hover has-megamenu">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             <div class="service_header">
               <span class="service" title="AUTOMATION SOLUTIONS"><b>Software</b></span>
@@ -42,20 +42,18 @@
                 <div class="col-megamenu">
                   <ul class="list-unstyled">
                     <li>
-                      <a href="billing-software" title="Billing software">
+                      <a routerLink="/billing" title="Billing software">
                         <div class="serive_img">
-                          <img src="../../assets/img/icon/invoice.png" alt="" data-pagespeed-url-hash="82190607"
-                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                          <img src="../../assets/img/icon/invoice.png" alt="">
                         </div>
                         <div class="serive_heading">
                           <h3>Billing software</h3>
                         </div>
                       </a>
                     </li>
-                    <li><a href="ios" title="iOS Apps">
+                    <li><a routerLink="/ios" title="iOS Apps">
                         <div class="serive_img">
-                          <img src="../../assets/img/icon/ios.png" alt="" data-pagespeed-url-hash="1578442587"
-                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                          <img src="../../assets/img/icon/ios.png" alt="">
                         </div>
                         <div class="serive_heading">
                           <h3>iOS Apps</h3>
@@ -68,10 +66,9 @@
                 <div class="col-megamenu">
 
                   <ul class="list-unstyled">
-                    <li><a href="android-app" title="Android Apps">
+                    <li><a routerLink="/android" title="Android Apps">
                         <div class="serive_img">
-                          <img src="../../assets/img/icon/adr.png" alt="" data-pagespeed-url-hash="3628289105"
-                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                          <img src="../../assets/img/icon/adr.png" alt="">
                         </div>
                         <div class="serive_heading">
                           <h3>Android Apps</h3>
@@ -85,10 +82,9 @@
                 <div class="col-megamenu">
 
                   <ul class="list-unstyled">
-                    <li><a href="inventory-software" title="Inventory Software">
+                    <li><a routerLink="/inventory" title="Inventory Software">
                         <div class="serive_img">
-                          <img src="../../assets/img/icon/inv.png" alt="" data-pagespeed-url-hash="2537158363"
-                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                          <img src="../../assets/img/icon/inv.png" alt="">
                         </div>
                         <div class="serive_heading">
                           <h3>Inventory Software</h3>
@@ -101,7 +97,7 @@
           </div>
         </li>
         <li class="nav-item dropdown hover">
-          <a class="nav-link" href="#">
+          <a class="nav-link" routerLink="/marketing">
             <div class="service_header">
               <span class="service" title="AUTOMATION SOLUTIONS"><b>Marketing</b></span>
               <span class="eccommerce" title="AUTOMATION SOLUTIONS"><b> & maintenance</b></span>
@@ -110,7 +106,7 @@
           </a>
         </li>
         <li class="nav-item dropdown hover">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             <div class="service_header">
               <span class="service" title="AUTOMATION SOLUTIONS"><b>seo</b></span>
@@ -125,20 +121,18 @@
                 <div class="col-megamenu">
                   <ul class="list-unstyled">
                     <li>
-                      <a href="seo-service" title="Ecommerce SEO">
+                      <a routerLink="/eccommerce" title="Ecommerce SEO">
                         <div class="serive_img">
-                          <img src="../../assets/img/icon/eccoemer.png" alt="" data-pagespeed-url-hash="3032496143"
-                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                          <img src="../../assets/img/icon/eccoemer.png" alt="">
                         </div>
                         <div class="serive_heading">
                           <h3>Ecommerce SEO</h3>
                         </div>
                       </a>
                     </li>
-                    <li><a href="seo-service" title="Content Marketing">
+                    <li><a routerLink="/content" title="Content Marketing">
                         <div class="serive_img">
-                          <img src="../../assets/img/icon/content.png" alt="" data-pagespeed-url-hash="4284895479"
-                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                          <img src="../../assets/img/icon/content.png" alt="">
                         </div>
                         <div class="serive_heading">
                           <h3>Content Marketing</h3>
@@ -153,19 +147,17 @@
 
                   <ul class="list-unstyled">
 
-                    <li><a href="seo-service" title="Local SEO">
+                    <li><a routerLink="/localseo" title="Local SEO">
                         <div class="serive_img">
-                          <img src="../../assets/img/icon/sec01.png" alt="" data-pagespeed-url-hash="2014596024"
-                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                          <img src="../../assets/img/icon/sec01.png">
                         </div>
                         <div class="serive_heading">
                           <h3>Local SEO</h3>
                         </div>
                       </a></li>
-                    <li><a href="seo-service" title="Off Page SEO">
+                    <li><a routerLink="/offpageseo" title="Off Page SEO">
                         <div class="serive_img">
-                          <img src="../../assets/img/icon/off.png" alt="" data-pagespeed-url-hash="3731610953"
-                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                          <img src="../../assets/img/icon/off.png" alt="">
                         </div>
                         <div class="serive_heading">
                           <h3>Off Page SEO</h3>
@@ -179,20 +171,18 @@
                 <div class="col-megamenu">
 
                   <ul class="list-unstyled">
-                    <li><a href="seo-service" title="Online Reputation Management">
+                    <li><a routerLink="/onlinereputation" title="Online Reputation Management">
                         <div class="serive_img">
-                          <img src="../../assets/img/icon/online.png" alt="" data-pagespeed-url-hash="505204191"
-                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                          <img src="../../assets/img/icon/online.png" alt="">
                         </div>
                         <div class="serive_heading">
                           <h3>Online Reputation Management</h3>
                         </div>
                       </a></li>
 
-                    <li><a href="seo-service" title="Guest Posting">
+                    <li><a routerLink="/guestposting" title="Guest Posting">
                         <div class="serive_img">
-                          <img src="../../assets/img/icon/gust.png" alt="" data-pagespeed-url-hash="907777231"
-                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                          <img src="../../assets/img/icon/gust.png" alt="">
                         </div>
                         <div class="serive_heading">
                           <h3>Guest Posting</h3>
@@ -205,7 +195,7 @@
           </div>
         </li>
         <li class="nav-item dropdown hover">
-          <a class="nav-link" href="#">
+          <a class="nav-link" routerLink="/our-portfolio">
             <div class="service_header">
               <span class="service" title="AUTOMATION SOLUTIONS"><b>our</b></span>
               <span class="eccommerce" title="AUTOMATION SOLUTIONS"><b> portfolio</b></span>
@@ -216,10 +206,10 @@
       </ul>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="about" title="About Us"> ABOUT US</a>
+          <a class="nav-link" routerLink="/about-us" title="About Us"> ABOUT US</a>
         </li>
         <li class="nav-item">
-          <div class="btn btn_enquiry" data-toggle="modal" data-target="#modals">Enquire Now</div>
+          <div class="btn btn_enquiry"  data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</div>
         </li>
       </ul>
     </div>

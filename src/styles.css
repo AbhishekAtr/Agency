@@ -342,7 +342,7 @@ img
 
 .mt_35
 {
-    margin-top: 35px;
+    margin-top: 35px !important;
 }
 
 #main-services .serviceBox {
@@ -713,7 +713,7 @@ img
 /* Get a request section */
 
 .modal-dialog {
-    border: 2px solid #fe0000;
+    border: 5px solid #fe0000;
 }
 
 label {
@@ -1220,6 +1220,580 @@ a
 }
 }
 
+
+.carousel-control-prev-icon
+{
+    position: relative !important;
+    background-image: none !important;
+}
+
+.carousel-control-prev-icon::before
+{
+    content: "\f053";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: white;
+    font-size: 15px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+}
+
+.carousel-control-next-icon
+{
+    position: relative !important;
+    background-image: none !important;
+}
+
+.carousel-control-next-icon::before
+{
+    content: "\f054";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: white;
+    font-size: 15px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 5px;
+    left: 11px;
+}
+
+
+/* Automation Page CSS */
+
+
+.page_title {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding: 9% 0%;
+}
+
+.page_title h2 {
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+}
+
+.breadcrumbs span {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.breadcrumbs span a {
+    color: white;
+}
+
+.automation_banner {
+    background-image: linear-gradient(rgb(14 13 13 / 26%), rgb(14 13 13 / 30%)), url(../src/assets/img/Banner/automation.png);
+}
+
+.automation h1 {
+
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.product_content {
+    width: 100%;
+    display: flex;
+}
+
+.product_img {
+    width: 12%;
+    margin-bottom: 15px;
+}
+
+.product_inner_content {
+    width: 80%;
+    margin-left: 20px;
+}
+
+.automation_img {
+    width: 69%;
+    border-radius: 12px;
+}
+
+.different {
+    padding: 45px 0px;
+    background-color: rgb(243, 242, 242);
+    
+}
+
+.differnt_card .card1 {
+    border-radius: 12px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.differnt_card .card1 img {
+    margin-top: 25px;
+}
+
+.differnt_card .card1 .card-title {
+    font-weight: 600;
+    margin: 25px 0px 30px;
+    font-size: 18px;
+}
+
+.differnt_card .card-body {
+    background-color: #fe0000;
+    height: 104px;
+    color: white;
+}
+
+.heading p {
+    width: 73%;
+    margin: auto;
+}
+
+.processes h1 {
+
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.processes {
+    margin-bottom: 35px;
+}
+
+.processes .product_img img {
+
+    width: 60%;
+    margin-bottom: 15px;
+    margin: auto;
+    margin-top: -4px;
+}
+
+.processes .product_content {
+    margin-bottom: 30px;
+    background-color: #f5f6f6;
+    padding: 20px;
+
+}
+
+.processes .product_content p {
+    margin: 0;
+}
+
+.processes .product_inner_content {
+    margin: 0;
+}
+
+/* Website Development Page CSS */
+
+.website_developement_banner {
+    background-image: linear-gradient(rgb(14 13 13 / 26%), rgb(14 13 13 / 30%)), url(../src/assets/img/Banner/client.jpg);
+}
+
+.feature {
+    background-color: #ecf6fd;
+}
+
+.p_35 {
+    padding: 35px 0px;
+}
+
+.feature_text h1 {
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 9px;
+}
+
+.feature_text ul li {
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.feature_text ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.feature_text h5 {
+
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.feature_text {
+    padding-top: 9%;
+}
+
+
+.feature_box img {
+    width: 20%;
+    margin-left: -13px;
+    margin-bottom: 10px;
+}
+
+.feature_box h5 {
+
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.feature_box {
+    margin-bottom: 20px;
+}
+
+.heading h1 {
+    font-size: 30px;
+}
+
+.pb_35 {
+    padding-bottom: 35px;
+}
+
+.pb_35 h1 {
+
+    font-size: 30px;
+}
+
+.pb_35 img {
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+
+.inventory_software {
+    background: linear-gradient(175deg, #fe0000 0%, #fe0000 78.95%, #ffffff 79%) !important;
+    color: white;
+}
+
+.levers_item {
+    margin-top: 40px;
+}
+
+.levers_icon_bg {
+    background: black;
+    padding: 8px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.levers_icon {
+    background: #fe0000;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.levers_content h6 {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+
+.levers_content {
+    border-radius: 22px;
+    padding: 15px 20px;
+    width: 100%;
+    border: 1px dashed #000;
+    background-color: #FFF;
+    position: relative;
+}
+
+.border-grapf {
+    background-color: #FFF;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: red;
+    position: absolute;
+    left: -10px;
+    top: 34%;
+}
+
+.levers_content p {
+    margin: 0;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.android h6 {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+/* About US page CSS Start */
+
+.about_banner {
+    background-image: linear-gradient(rgb(14 13 13 / 26%), rgb(14 13 13 / 30%)), url(../src/assets/img/Banner/about-us-banner.jpg);
+
+}
+
+.sco_services {
+    margin-top: -65px;
+}
+
+.heading_half {
+    background-color: white;
+    border-top: 8px solid #FE0000;
+    padding: 20px 20px 15px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.mission_vission {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 40px;
+    border-left: 8px solid black;
+}
+
+.mb_35 {
+    margin-bottom: 50px;
+    padding: 50px 0px;
+    background-color: rgb(245, 244, 244);
+
+}
+
+.mission_vission h2 {
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.mission_vission p {
+    margin: 0;
+}
+
+.mission_vission .vission:After {
+    position: absolute;
+    left: -61px;
+    top: -7px;
+    content: '';
+    background-color: #FE0000;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.mission_vission .vission::before {
+    position: absolute;
+    left: -49px;
+    top: 5px;
+    content: '';
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    z-index: 999;
+    border-radius: 50%;
+}
+
+.mission_vission .Mission:After {
+    position: absolute;
+    left: -61px;
+    top: -7px;
+    content: '';
+    background-color: #FE0000;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.mission_vission .Mission::before {
+    position: absolute;
+    left: -49px;
+    top: 5px;
+    content: '';
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    z-index: 999;
+    border-radius: 50%;
+}
+
+.about_img {
+    margin-top: 0;
+    width: 83%;
+}
+
+/* Marketing & maintenance Page CSS start */
+
+.marketing_banner {
+    background-image: linear-gradient(rgb(14 13 13 / 26%), rgb(14 13 13 / 30%)), url(../src/assets/img/Banner/website-maintainance-services.png);
+
+}
+
+.work_process_icon {
+    text-align: center;
+    width: 124px;
+    height: 124px;
+    line-height: 124px;
+    border-radius: 50%;
+    background-color: rgb(236, 236, 236);
+    width: 124px;
+    height: 124px;
+    margin: 0 auto;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.arrows:after {
+    content: '';
+    position: absolute;
+    left: calc(159% + 2px);
+    width: 10px;
+    height: 10px;
+    border-top: solid 1px red;
+    border-right: solid 1px red;
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    -ms-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.single_work_process h4 {
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: 18px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    font-size: 16px;
+}
+
+.arrows::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -70%;
+    width: 70%;
+    height: 1px;
+    background-color: red;
+    opacity: .5;
+}
+
+.single_work_process:hover .work_process_icon {
+    border-color: red;
+    -webkit-box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 10%);
+    box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 10%);
+}
+
+.single_work_process:hover h4 {
+    color: red;
+}
+
+.work_process_icon img {
+    width: 50%;
+}
+
+.runway h4 {
+    font-weight: 300;
+    line-height: 30px;
+    width: 83%;
+    margin: auto;
+    color: gray;
+}
+
+.marketing_content h1 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.marketing_content p {
+    margin: 0;
+}
+
+.marketing_content {
+    margin-bottom: 30px;
+}
+
+.runway {
+    margin: 20px 0px;
+}
+
+.m_section5 {
+    width: 100%;
+    background: url(../src/assets/img/Banner/mask-group-414.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+}
+
+.m_section5 .title-sec5 h4 {
+    margin: 0px;
+    color: #000;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.m_section5 .content-sec5 p {
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 28px;
+    color: #000;
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list-ct5 {
+    max-width: 700px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.m_section5 .content-sec5 .list-ct5 ul {
+    width: 50%;
+    float: left;
+    list-style: none;
+    margin: 0px;
+}
+
+.list-ct5 ul li {
+    font-size: 26px;
+    font-weight: 800;
+    color: #000;
+    line-height: 28px;
+    height: 100px;
+    max-width: 300px;
+    padding-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.list-ct5 ul li:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #0099D8;
+    left: 0px;
+    position: absolute;
+    top: 8px;
+}
 
 
 
