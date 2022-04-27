@@ -20,6 +20,12 @@
 
 /* Header Section */
 
+.megamenu1
+{
+    left: -150px !important;
+}
+
+
 .navbar-brand
 {
     width: 7% !important;
@@ -36,6 +42,8 @@ img
 {
     padding: 0 !important;
     text-transform: uppercase;
+    box-shadow: 0 0 8px 0 #969494;
+    border-bottom: 1px solid #FE0000;
 }
 
 .navbar-nav.m-auto .nav-link {
@@ -1863,6 +1871,8 @@ p {
     margin-bottom: 35px;
     border: none;
     border-top: 8px solid red;
+    background: white !important;
+    border-top-left-radius: 5px !important;
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
     overflow: hidden;
 }
@@ -2176,5 +2186,475 @@ p {
     background: url('../src/assets/img/icon/uedeveloper-icons-sprites.png') -250px -10px;
 }
 
+/* Our Portfolio Page CSS start */
+
+.portpolio_banner {
+    background-image: linear-gradient(rgb(14 13 13 / 26%), rgb(14 13 13 / 30%)), url(../src/assets/img/Banner/port-banner.jpg);
+}
+
+.page_title {
+    background-repeat: no-repeat;
+    margin-top: 4%;
+    background-size: cover;
+
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding: 9% 0%;
+}
+
+.mt_50 {
+    margin: 50px 0px;
+}
+
+.portpolio_left_side {
+    position: relative;
+}
+
+.portpolio_left_side .big_images {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.small_img {
+    position: absolute;
+    top: 58px;
+    right: -163px;
+    width: 339px;
+    background: white;
+    padding: 70px 41px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+}
+
+.portpolio_content {
+    width: 47%;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.portpolio_content a img {
+
+    width: 5%;
+    margin-left: 10px;
+}
+
+.portpolio_content a {
+    color: #FE0000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.portpolio_content p {
+    font-size: 17px;
+}
+
+.portpolio_right_side {
+    position: relative;
+}
 
 
+.portpolio_right_side .big_images {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.portpolio_small_right {
+    position: absolute;
+    top: 58px;
+    left: -163px;
+    width: 339px;
+    background: white;
+    padding: 70px 41px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+}
+
+.pb_50 {
+    padding-bottom: 80px;
+}
+
+/* pet case study css start */
+
+.case_study img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.screen_sec {
+    padding: 35px;
+    position: relative;
+}
+
+.screen_sec .img_sec {
+    z-index: 1;
+    transition: 0.6s;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.screen_sec .img_sec:hover {
+    transform: scale(1.2);
+    z-index: 2;
+    transition: 0.6s;
+}
+
+.Key_features {
+    margin: 35px 0px;
+}
+
+#param_case .feat_cont .card {
+    margin-bottom: 25px;
+}
+
+.feat_cont .card {
+    width: 100%;
+    position: relative;
+    display: -webkit-inline-box;
+    padding: 15px;
+    background: white !important;
+    border-top-left-radius: 5px !important;
+    align-items: center;
+    margin-bottom: 35px;
+    border-bottom: 4px solid #32b6a0;
+    box-shadow: 0 2px 20px 4px rgb(0 0 0 / 9%), 0 3px 1px -2px rgb(0 0 0 / 0%), 0 1px 5px 0 rgb(0 0 0 / 4%);
+}
+
+.feat_cont .card img {
+    width: 100px;
+    margin-right: 1vw;
+    padding: 15px;
+}
+
+.feat_cont .card h3 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+#param_case .feat_cont {
+    margin-top: 0px;
+}
+
+.solution_sec {
+    padding: 70px 0;
+    background-image: url(../src/assets/img/banner/solution-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sol_cont h3 {
+    font-size: 30px;
+}
+
+.result_sec .cont {
+    margin-top: 196px;
+}
+
+/* Indian-Mandrins-case study page css start */
+
+.ml_50 {
+    margin-left: 50px;
+}
+
+.testimonial_sec {
+    position: relative;
+}
+
+.testimonial_sec::before {
+    position: absolute;
+    content: "";
+    top: -10%;
+    right: 0%;
+    width: 20%;
+    height: 100%;
+    background: url("../src/assets/img/icon/mobile-dots.png");
+    background-size: 100%;
+    z-index: -1;
+}
+
+.testimonial_sec:after {
+    position: absolute;
+    content: "";
+    bottom: -20%;
+    left: 0%;
+    width: 20%;
+    height: 100%;
+    background: url("../src/assets/img/icon/mobile-dots.png");
+    background-size: 100%;
+    z-index: -1;
+}
+
+.testimonial_sec .img_sec img {
+    border-radius: 35% 10%;
+    box-shadow: #ddd 2px 2px 35px;
+    width: 70%;
+}
+
+.testimonial_sec .test_cont {
+    padding-left: 15%;
+    border-left: 3px solid #f60;
+    padding: 6% 15%;
+}
+
+.testimonial_sec .test_cont h4 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #ababab;
+}
+
+.test_cont h3 {
+    font-size: 30px;
+}
+
+/* Our Associates Page CSS Start */
+
+.associates_banner {
+    background-image: linear-gradient(rgb(14 13 13 / 26%), rgb(14 13 13 / 30%)), url("../src/assets/img/banner/associates01.jpg");
+
+}
+
+.box_associates {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 134px;
+    margin-bottom: 45px;
+}
+
+.box_associates img {
+
+    height: 100%;
+}
+
+.box_1 {
+    border-bottom: 4px solid #69a243;
+}
+
+.box_2 {
+    border-bottom: 4px solid #6ba1ce;
+}
+
+.box_3 {
+    border-bottom: 4px solid #ea632d;
+}
+
+.box_4 {
+    border-bottom: 4px solid #e5122a;
+}
+
+.box_5 {
+    border-bottom: 4px solid #f4a961;
+}
+
+.box_6 {
+    border-bottom: 4px solid #fa582d;
+}
+
+.box_7 {
+    border-bottom: 4px solid #d09f4f;
+}
+
+.box_8 {
+    border-bottom: 4px solid #0680ba;
+}
+
+.box_9 {
+    border-bottom: 4px solid #fec322;
+}
+
+.box_10 {
+    border-bottom: 4px solid #34568c;
+}
+
+.box_11 {
+    border-bottom: 4px solid #b5262b;
+}
+
+.box_12 {
+    border-bottom: 4px solid #4d4d4d;
+}
+
+.box_13 {
+    border-bottom: 4px solid #08b53a;
+}
+
+.box_14 {
+    border-bottom: 4px solid #fa4718;
+}
+
+.box_15 {
+    border-bottom: 4px solid #ffbb07;
+}
+
+.box_16 {
+    border-bottom: 4px solid #f26522;
+}
+
+.box_17 {
+    border-bottom: 4px solid #646464;
+}
+
+.box_18 {
+    border-bottom: 4px solid #047eb8;
+}
+
+.box_19 {
+    border-bottom: 4px solid #0b1f41;
+}
+
+.box_20 {
+    border-bottom: 4px solid #008f4b;
+}
+
+.box_21 {
+    border-bottom: 4px solid #008f4b;
+}
+
+.box_22 {
+    border-bottom: 4px solid #00afd8;
+}
+
+.mt_50 {
+    margin: 50px 0px;
+}
+
+/* contact-us page css start */
+
+
+.aviner_infomation {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    border-radius: 12px;
+    padding: 15px;
+    padding-bottom: 0px;
+    height: 76px;
+}
+
+.contact_aviner {
+    padding-bottom: 40px;
+}
+
+.aviner_infomation ul li {
+    width: 100%;
+    display: flex;
+}
+
+.aviner_infomation ul li span {
+
+    width: 35px;
+    font-size: 22px;
+    line-height: 0;
+    text-align: center;
+    margin-top: 2px
+}
+
+.aviner_infomation ul li p {
+
+    width: 300px;
+}
+
+.contact_form {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+
+    margin-bottom: 45px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contact_form label {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contact_form label span {
+    color: #FE0000;
+}
+
+.contact_form .form-control {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.contact_form .form-control:focus {
+    box-shadow: none;
+}
+
+
+
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #FE0000;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    position: fixed;
+    z-index: 999999;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+.form-group {
+    margin-bottom: 1rem !important;
+}
