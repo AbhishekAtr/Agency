@@ -14,6 +14,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { OurPortfolioComponent } from './our-portfolio/our-portfolio.component';
 import { BillingSoftwareComponent } from './billing-software/billing-software.component';
 import { IosAppComponent } from './ios-app/ios-app.component';
+import { AndroidAppsComponent } from './android-apps/android-apps.component';
+import { InventorySoftwareComponent } from './inventory-software/inventory-software.component';
+import { EcommerceSeoComponent } from './ecommerce-seo/ecommerce-seo.component';
 
 const appRoutes: Routes=[
   {path:'', component: HomeComponent},
@@ -24,6 +27,9 @@ const appRoutes: Routes=[
   {path:'Our-Portfolio', component: OurPortfolioComponent},
   {path:'Billing-Software', component: BillingSoftwareComponent},
   {path:'Ios-Apps', component: IosAppComponent},
+  {path:'Android-apps', component: AndroidAppsComponent},
+  {path:'Inventory-Software', component: InventorySoftwareComponent},
+  {path:'Ecommerce', component: EcommerceSeoComponent},
 ]
 
 @NgModule({
@@ -39,7 +45,10 @@ const appRoutes: Routes=[
     AboutUsComponent,
     OurPortfolioComponent,
     BillingSoftwareComponent,
-    IosAppComponent
+    IosAppComponent,
+    AndroidAppsComponent,
+    InventorySoftwareComponent,
+    EcommerceSeoComponent
   ],
   imports: [
     BrowserModule,
